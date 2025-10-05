@@ -20,7 +20,7 @@ Ferramentas: Microsoft Copilot, ChatGPT e Gemini
 
 Data de uso: vide  📁 
                    
-                     https://github.com/cardoso20191/projeto02-sql/commits/main/
+                     https://github.com/cardoso20191//Grupo7_ProjetoFinal/commits/main/
 
 ### **✅ 4. Responsabilidade**
 A responsabilidade final pelo conteúdo, incluindo sua veracidade, adequação e uso, são dos autores que supervisionaram o processo: 
