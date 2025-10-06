@@ -2,11 +2,11 @@
 -- Inclui quantidade de respostas, mínimo, máximo e média
 SELECT 
   'avaliacao_geral' AS coluna,
-  COUNTIF(avaliacaogeral != 999999) AS total_respostas,
-  MIN(NULLIF(avaliacaogeral, 999999)) AS minimo,
-  MAX(NULLIF(avaliacaogeral, 999999)) AS maximo,
-  ROUND(AVG(NULLIF(avaliacaogeral, 999999)), 2) AS media
-FROM `t1engenhariadados.Grupo3_7_PROJETOFINAL.tabelafinal`
+  COUNTIF(avaliacao_geral != 999999) AS total_respostas,
+  MIN(NULLIF(avaliacao_geral, 999999)) AS minimo,
+  MAX(NULLIF(avaliacao_geral, 999999)) AS maximo,
+  ROUND(AVG(NULLIF(avaliacao_geral, 999999)), 2) AS media
+FROM `t1engenhariadados.Grupo3_7_PROJETOFINAL.tabelafinal_atualizada`
 
 UNION ALL
 SELECT 
@@ -15,7 +15,7 @@ SELECT
   MIN(NULLIF(banheiros, 999999)),
   MAX(NULLIF(banheiros, 999999)),
   ROUND(AVG(NULLIF(banheiros, 999999)), 2)
-FROM `t1engenhariadados.Grupo3_7_PROJETOFINAL.tabelafinal`
+FROM `t1engenhariadados.Grupo3_7_PROJETOFINAL.tabelafinal_atualizada`
 
 UNION ALL
 SELECT 
@@ -24,7 +24,7 @@ SELECT
   MIN(NULLIF(seguranca, 999999)),
   MAX(NULLIF(seguranca, 999999)),
   ROUND(AVG(NULLIF(seguranca, 999999)), 2)
-FROM `t1engenhariadados.Grupo3_7_PROJETOFINAL.tabelafinal`
+FROM `t1engenhariadados.Grupo3_7_PROJETOFINAL.tabelafinal_atualizada`
 
 UNION ALL
 SELECT 
@@ -33,4 +33,4 @@ SELECT
   MIN(NULLIF(precos, 999999)),
   MAX(NULLIF(precos, 999999)),
   ROUND(AVG(NULLIF(precos, 999999)), 2)
-FROM `t1engenhariadados.Grupo3_7_PROJETOFINAL.tabelafinal`;
+FROM `t1engenhariadados.Grupo3_7_PROJETOFINAL.tabelafinal_atualizada`;
